@@ -189,4 +189,6 @@ int main()
         if (bracket_close != NULL && main1 == NULL && printf1 == NULL)
             printf(") - special character\n");
     }
+    fclose(fp);
+    return 0;
 }
